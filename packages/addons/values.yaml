@@ -83,7 +83,7 @@ ingress-nginx:
         values: ['control-plane']
 
 external-dns:
-  enabled: true
+  enabled: false
   releaseName: external-dns
   namespace: external-dns
   chartName: external-dns
