@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: {{ values.name }}
+  description: A basic Node.js app scaffolded via Cnoe.io
+spec:
+  type: service
+  owner: team:default/engineering
+  lifecycle: experimental

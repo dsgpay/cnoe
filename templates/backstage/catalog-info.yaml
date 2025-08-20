@@ -6,6 +6,7 @@ metadata:
 spec:
   targets:
     - ./basic/template.yaml
+    - ./basic-nodejs/template.yaml
     - ./argo-workflows/template.yaml
     - ./app-with-bucket/template.yaml
     - ./ray-serve/template-ray-serve.yaml
