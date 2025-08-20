@@ -55,7 +55,7 @@ spec:
         spec:
           deletionPolicy: Delete
           forProvider:
-            region: us-west-2
+            region: ap-southeast-1
             forceDestroy: true # be careful with this
             writeConnectionSecretToRef:
               namespace: crossplane-system

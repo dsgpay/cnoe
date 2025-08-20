@@ -7,7 +7,7 @@ variable "cluster_name" {
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "us-west-2"
+  default     = "ap-southeast-1"
 }
 
 variable "auto_mode" {

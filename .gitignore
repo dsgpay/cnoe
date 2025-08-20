@@ -49,3 +49,4 @@ site
 # Checks
 .tfsec
 
+github-app-dsdgpay-backstage-credentials.yaml
